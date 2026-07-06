@@ -1,0 +1,11 @@
+{
+  "ma": 0.815,
+  "phi_deg": 3.39,
+  "I1_rms_LCL": 27.25,
+  "I1_rms_L": 27.22,
+  "THD_LCL_pct": 0.76,
+  "THD_L_pct": 6.2,
+  "fres_Hz": 2318.0,
+  "IEEE519_limit_pct": 5.0,
+  "pass_IEEE519": true
+}

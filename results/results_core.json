@@ -1,0 +1,153 @@
+{
+  "stc": {
+    "Vmpp": 30.84,
+    "Impp": 8.1,
+    "Pmod": 249.7,
+    "Parr_kW": 6.242,
+    "nameplate_err_pct": 0.121
+  },
+  "p_30C_kW": 6.123,
+  "p_45C_kW": 5.763,
+  "derate_25_45_pct": 7.69,
+  "pv_table": [
+    {
+      "G": 200,
+      "Tc": 25,
+      "Voc": 37.51,
+      "Isc": 1.74,
+      "Vmpp": 29.05,
+      "Impp": 1.57,
+      "Pmod": 45.6,
+      "Parr_kW": 1.14
+    },
+    {
+      "G": 200,
+      "Tc": 45,
+      "Voc": 35.17,
+      "Isc": 1.75,
+      "Vmpp": 26.44,
+      "Impp": 1.58,
+      "Pmod": 41.7,
+      "Parr_kW": 1.04
+    },
+    {
+      "G": 400,
+      "Tc": 25,
+      "Voc": 37.51,
+      "Isc": 3.47,
+      "Vmpp": 29.99,
+      "Impp": 3.21,
+      "Pmod": 96.2,
+      "Parr_kW": 2.41
+    },
+    {
+      "G": 400,
+      "Tc": 45,
+      "Voc": 35.17,
+      "Isc": 3.51,
+      "Vmpp": 27.5,
+      "Impp": 3.21,
+      "Pmod": 88.4,
+      "Parr_kW": 2.21
+    },
+    {
+      "G": 600,
+      "Tc": 25,
+      "Voc": 37.51,
+      "Isc": 5.21,
+      "Vmpp": 30.46,
+      "Impp": 4.84,
+      "Pmod": 147.4,
+      "Parr_kW": 3.69
+    },
+    {
+      "G": 600,
+      "Tc": 45,
+      "Voc": 35.17,
+      "Isc": 5.26,
+      "Vmpp": 27.94,
+      "Impp": 4.86,
+      "Pmod": 135.7,
+      "Parr_kW": 3.39
+    },
+    {
+      "G": 800,
+      "Tc": 25,
+      "Voc": 37.51,
+      "Isc": 6.94,
+      "Vmpp": 30.65,
+      "Impp": 6.48,
+      "Pmod": 198.7,
+      "Parr_kW": 4.97
+    },
+    {
+      "G": 800,
+      "Tc": 45,
+      "Voc": 35.17,
+      "Isc": 7.01,
+      "Vmpp": 28.21,
+      "Impp": 6.5,
+      "Pmod": 183.2,
+      "Parr_kW": 4.58
+    },
+    {
+      "G": 1000,
+      "Tc": 25,
+      "Voc": 37.51,
+      "Isc": 8.68,
+      "Vmpp": 30.84,
+      "Impp": 8.1,
+      "Pmod": 249.7,
+      "Parr_kW": 6.24
+    },
+    {
+      "G": 1000,
+      "Tc": 45,
+      "Voc": 35.17,
+      "Isc": 8.77,
+      "Vmpp": 28.38,
+      "Impp": 8.12,
+      "Pmod": 230.5,
+      "Parr_kW": 5.76
+    }
+  ],
+  "Epv_day_kWh": 33.58,
+  "Ppv_peak_kW": 5.37,
+  "Tcell_noon": 61.2,
+  "baseline": {
+    "Epv": 33.576,
+    "Eload": 54.4,
+    "Epv2load": 18.813,
+    "Epv2bat": 4.155,
+    "Ebat2load": 3.948,
+    "Egrid_imp": 31.64,
+    "Egrid_exp": 10.608,
+    "Ppv_peak": 5.372,
+    "Pimp_peak": 3.343,
+    "soc_min_reached": 0.5,
+    "soc_max_reached": 0.8,
+    "self_suff": 41.838,
+    "self_cons": 68.405,
+    "load_share_pv": 34.582,
+    "load_share_bat": 7.256,
+    "load_share_grid": 58.162
+  },
+  "optimised": {
+    "Epv": 33.576,
+    "Eload": 54.4,
+    "Epv2load": 18.813,
+    "Epv2bat": 5.54,
+    "Ebat2load": 5.263,
+    "Egrid_imp": 30.324,
+    "Egrid_exp": 9.223,
+    "Ppv_peak": 5.372,
+    "Pimp_peak": 3.343,
+    "soc_min_reached": 0.4,
+    "soc_max_reached": 0.8,
+    "self_suff": 44.257,
+    "self_cons": 72.53,
+    "load_share_pv": 34.582,
+    "load_share_bat": 9.675,
+    "load_share_grid": 55.743
+  }
+}

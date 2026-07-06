@@ -1,0 +1,260 @@
+{
+  "seasonal": {
+    "representative": {
+      "Epv": 33.58,
+      "Eload": 54.4,
+      "Epv2load": 18.81,
+      "Epv2bat": 5.54,
+      "Ebat2load": 5.26,
+      "Egrid_imp": 30.32,
+      "Egrid_exp": 9.22,
+      "Ppv_peak": 5.37,
+      "Pimp_peak": 3.34,
+      "soc_min_reached": 0.4,
+      "soc_max_reached": 0.8,
+      "self_suff": 44.26,
+      "self_cons": 72.53,
+      "load_share_pv": 34.58,
+      "load_share_bat": 9.68,
+      "load_share_grid": 55.74,
+      "Epv_day": 33.58,
+      "Tc_noon": 61.17
+    },
+    "summer": {
+      "Epv": 38.8,
+      "Eload": 62.0,
+      "Epv2load": 25.52,
+      "Epv2bat": 5.54,
+      "Ebat2load": 5.26,
+      "Egrid_imp": 31.22,
+      "Egrid_exp": 7.74,
+      "Ppv_peak": 5.03,
+      "Pimp_peak": 3.81,
+      "soc_min_reached": 0.4,
+      "soc_max_reached": 0.8,
+      "self_suff": 49.65,
+      "self_cons": 80.05,
+      "load_share_pv": 41.16,
+      "load_share_bat": 8.49,
+      "load_share_grid": 50.35,
+      "Epv_day": 38.8,
+      "Tc_noon": 75.16
+    },
+    "winter": {
+      "Epv": 24.82,
+      "Eload": 40.0,
+      "Epv2load": 12.53,
+      "Epv2bat": 5.54,
+      "Ebat2load": 5.26,
+      "Egrid_imp": 22.21,
+      "Egrid_exp": 6.75,
+      "Ppv_peak": 4.48,
+      "Pimp_peak": 2.46,
+      "soc_min_reached": 0.4,
+      "soc_max_reached": 0.8,
+      "self_suff": 44.48,
+      "self_cons": 72.79,
+      "load_share_pv": 31.32,
+      "load_share_bat": 13.16,
+      "load_share_grid": 55.52,
+      "Epv_day": 24.82,
+      "Tc_noon": 44.29
+    },
+    "cloudy": {
+      "Epv": 22.45,
+      "Eload": 54.4,
+      "Epv2load": 17.79,
+      "Epv2bat": 4.66,
+      "Ebat2load": 4.42,
+      "Egrid_imp": 32.19,
+      "Egrid_exp": 0.0,
+      "Ppv_peak": 3.32,
+      "Pimp_peak": 3.34,
+      "soc_min_reached": 0.4,
+      "soc_max_reached": 0.74,
+      "self_suff": 40.83,
+      "self_cons": 100.0,
+      "load_share_pv": 32.7,
+      "load_share_bat": 8.13,
+      "load_share_grid": 59.17,
+      "Epv_day": 22.45,
+      "Tc_noon": 57.2
+    }
+  },
+  "batt_sweep": [
+    {
+      "Ebat": 6.75,
+      "self_suff": 39.4,
+      "self_cons": 64.3,
+      "bat2load": 2.63,
+      "grid_imp": 32.96
+    },
+    {
+      "Ebat": 10.0,
+      "self_suff": 41.7,
+      "self_cons": 68.3,
+      "bat2load": 3.9,
+      "grid_imp": 31.69
+    },
+    {
+      "Ebat": 13.5,
+      "self_suff": 44.3,
+      "self_cons": 72.5,
+      "bat2load": 5.26,
+      "grid_imp": 30.32
+    },
+    {
+      "Ebat": 20.0,
+      "self_suff": 48.9,
+      "self_cons": 80.5,
+      "bat2load": 7.8,
+      "grid_imp": 27.79
+    },
+    {
+      "Ebat": 27.0,
+      "self_suff": 53.9,
+      "self_cons": 89.0,
+      "bat2load": 10.53,
+      "grid_imp": 25.06
+    }
+  ],
+  "load_sweep": [
+    {
+      "load": 30.0,
+      "ss_base": 52.5,
+      "ss_opt": 56.8,
+      "sc_base": 47.5,
+      "sc_opt": 51.6
+    },
+    {
+      "load": 45.0,
+      "ss_base": 45.1,
+      "ss_opt": 48.0,
+      "sc_base": 61.0,
+      "sc_opt": 65.2
+    },
+    {
+      "load": 54.4,
+      "ss_base": 41.8,
+      "ss_opt": 44.3,
+      "sc_base": 68.4,
+      "sc_opt": 72.5
+    },
+    {
+      "load": 60.0,
+      "ss_base": 40.2,
+      "ss_opt": 42.4,
+      "sc_base": 72.4,
+      "sc_opt": 76.6
+    }
+  ],
+  "balance_resid_max_pct": 0.0,
+  "balance_resid_rmse_W": 0.0,
+  "repro_table": [
+    {
+      "kpi": "Module MPP (W)",
+      "python": 249.7,
+      "ref": 250.0,
+      "err_pct": 0.12
+    },
+    {
+      "kpi": "Array peak @30C (kW)",
+      "python": 6.12,
+      "ref": 6.13,
+      "err_pct": 0.12
+    },
+    {
+      "kpi": "Array @45C (kW)",
+      "python": 5.76,
+      "ref": 5.77,
+      "err_pct": 0.13
+    },
+    {
+      "kpi": "Daily PV (kWh)",
+      "python": 33.58,
+      "ref": 34.0,
+      "err_pct": 1.25
+    },
+    {
+      "kpi": "Self-sufficiency (%)",
+      "python": 44.26,
+      "ref": 44.6,
+      "err_pct": 0.77
+    },
+    {
+      "kpi": "PV self-consumption (%)",
+      "python": 72.53,
+      "ref": 72.1,
+      "err_pct": 0.6
+    },
+    {
+      "kpi": "Grid import (kWh)",
+      "python": 30.32,
+      "ref": 30.2,
+      "err_pct": 0.41
+    },
+    {
+      "kpi": "Battery->load (kWh)",
+      "python": 5.26,
+      "ref": 5.3,
+      "err_pct": 0.69
+    }
+  ],
+  "repro_MAPE_pct": 0.51,
+  "repro_RMSE_pct": 0.63,
+  "annual": {
+    "pv_kWh": 11833,
+    "load_kWh": 19041,
+    "grid_imp_kWh": 10195,
+    "grid_exp_kWh": 2887,
+    "self_suff": 46.5
+  },
+  "econ": {
+    "capex_USD": 13319,
+    "tariff_USD_kWh": 0.048,
+    "annual_saving_USD": 563,
+    "simple_payback_yr": 23.7,
+    "LCOE_USD_kWh": 0.135,
+    "NPV_USD": -7137,
+    "crf": 0.071,
+    "efc_per_yr": 142.3,
+    "cycle_life_yr": 28.1,
+    "batt_life_yr": 13,
+    "capex_breakdown": {
+      "pv": 5000,
+      "batt": 4725,
+      "inv": 1562,
+      "bos": 2032
+    },
+    "tariff_sensitivity": [
+      {
+        "scenario": "Current subsidised (0.18 SAR)",
+        "tariff_USD": 0.048,
+        "saving_USD": 563,
+        "payback_yr": 23.6,
+        "NPV_USD": -7136
+      },
+      {
+        "scenario": "Partial reform (0.30 SAR)",
+        "tariff_USD": 0.08,
+        "saving_USD": 939,
+        "payback_yr": 14.2,
+        "NPV_USD": -1844
+      },
+      {
+        "scenario": "Cost-reflective (~0.45 SAR)",
+        "tariff_USD": 0.12,
+        "saving_USD": 1408,
+        "payback_yr": 9.5,
+        "NPV_USD": 4771
+      },
+      {
+        "scenario": "Unsubsidised (~0.60 SAR)",
+        "tariff_USD": 0.16,
+        "saving_USD": 1877,
+        "payback_yr": 7.1,
+        "NPV_USD": 11385
+      }
+    ]
+  }
+}

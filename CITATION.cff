@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the associated article and this archive."
+title: "Code and data: Grid-connected PV–battery microgrid with smart-inverter support (Riyadh)"
+abstract: "Independent Python verification code, runnable MATLAB/Simulink model, input resource data and precomputed results for a single-phase grid-connected PV–battery residential microgrid study for Riyadh, Saudi Arabia."
+type: software
+version: "1.0.0"
+date-released: "2026-07-06"
+license: CC-BY-4.0
+authors:
+  - family-names: Hakami
+    given-names: Abdullatif
+    affiliation: "University of Bisha, Saudi Arabia"
+  - family-names: Khan
+    given-names: "Muhammed Anaz"
+    affiliation: "University of Bisha, Saudi Arabia"
+    email: mkhan@ub.edu.sa
+  - family-names: Alshehri
+    given-names: "Abdulkhaleq Mohammed Abdullah"
+    affiliation: "University of Bisha, Saudi Arabia"
+  - family-names: Asiri
+    given-names: "Ali Ahmad Ali"
+    affiliation: "University of Bisha, Saudi Arabia"
+  - family-names: Alhallafi
+    given-names: "Abdulrahman Khader"
+    affiliation: "University of Bisha, Saudi Arabia"
+keywords:
+  - photovoltaic microgrid
+  - battery energy storage
+  - smart inverter
+  - LCL filter
+  - total harmonic distortion
+  - techno-economic analysis
+  - Saudi Arabia
+preferred-citation:
+  type: article
+  title: "Theoretical Formulation and Simulation-Based Verification of a Grid-Connected Photovoltaic–Battery Microgrid with Smart-Inverter Support for High-Irradiance Residential Applications in Saudi Arabia"
+  authors:
+    - family-names: Hakami
+      given-names: Abdullatif
+    - family-names: Khan
+      given-names: "Muhammed Anaz"
+    - family-names: Alshehri
+      given-names: "Abdulkhaleq Mohammed Abdullah"
+    - family-names: Asiri
+      given-names: "Ali Ahmad Ali"
+    - family-names: Alhallafi
+      given-names: "Abdulrahman Khader"
+  journal: "Solar"
+  publisher:
+    name: MDPI
+  year: 2026
+  notes: "Manuscript ID solar-4407776"
